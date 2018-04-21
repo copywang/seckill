@@ -1,7 +1,7 @@
 package org.seckill.enums;
 
 /**
- * Created by codingBoy on 16/11/28.
+ * 枚举类
  */
 public enum SeckillStatEnum {
 

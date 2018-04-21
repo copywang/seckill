@@ -32,8 +32,8 @@ public class SeckillServiceImpl implements SeckillService {
     //日志对象
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    //加入一个混淆字符串(秒杀接口)的salt，为了我避免用户猜出我们的md5值，值任意给，越复杂越好
-    private final String salt = "shsdssljdd'l.";
+    //加入一个混淆字符串(秒杀接口)的salt，为了避免用户猜出我们的md5值，值任意给，越复杂越好
+    private final String salt = "dadadafdafaUJM(O0";
 
     //注入Service依赖
     @Autowired //@Resource
